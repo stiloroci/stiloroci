@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!doctype>
+<html dir="ltr" lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Buscar empleo </title>
+	<link rel="stylesheet" href="trabajo.css">
+</head>
+<body>
+<div class="container">
+  <form target="_blank" action="https://formsubmit.co/stiloroci2@gmail.com" method="POST">
+    <div class="form-group">
+      <div class="form-row">
+        <div class="col">
+          <input type="text" name="Nombre" class="form-control" placeholder="Nombre" required>
+        </div>
+        <div class="col">
+          <input type="email" name="Correo" class="form-control" placeholder="Correo" required>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <textarea placeholder="mensaje" class="form-control" name="message" rows="10" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-lg btn-dark btn-block">Enviar</button>
+  </form>
+</div>
+</body>
+</html>
